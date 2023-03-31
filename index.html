@@ -1,0 +1,364 @@
+<!-- https://www.figma.com/file/hxuBjoY4M4lJdwalq9jGsH/1.-Real-Estate-Landing-Page-(Easy)?node-id=25-2&t=eZXqJZ5ewP5fZBFt-0 -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>F8-project 01</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/reset.css" />
+      <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+      <link rel="stylesheet" href="./assets/css/style.css" />
+   </head>
+   <body>
+      <!-- thẻ main gioongs thẻ div nhưng có ngữ nghĩa , thẻ div thì ko có ngữ nghĩa , thẻ main có tác dụng chứa bố cục của trang  -->
+      <main>
+         <!-- header -->
+         <header class="header">
+            <div class="content">
+               <nav class="navbar">
+                  <!-- logo -->
+                  <img src="assets/img/Logo.svg" alt="Besnik." />
+                  <!-- navigation -->
+                  <ul>
+                     <li>
+                        <a href="#!">Home</a>
+                        <a href="#!">Features</a>
+                        <a href="#!">Services</a>
+                        <a href="#!">Listed</a>
+                        <a href="#!">Contact</a>
+                     </li>
+                  </ul>
+                  <!-- link action -->
+                  <div class="actions">
+                     <a class="action-link" href="#!">Sign in</a>
+                     <a class="btn action-btn" href="#!">Sign up</a>
+
+                  </div>
+               </nav>
+
+               <!-- hero : phần chứa nôi dung chính của header -->
+               <div class="hero">
+                  <div class="info">
+                         <!-- info chỉ nội dung ,sub title : thông điệp nhỏ , desc mô tả -->
+                     <p class="sub-title">Welcome to Besnik Agency</p>
+                     <h1 class="title">Discover a place
+                        you'll love to live.</h1>
+                     <p class="desc">get the best real estate deals first,
+                        before they hit the mass market! HOT FORECLOSURE DEALS with one simple search.</p>
+                     <a class="btn hero-cta">More About Us</a>
+                  </div>
+                  <img src="assets/img/home.svg" alt="Discover a place
+                  you'll love to live." class="hero-img">
+               </div>
+         </header>
+         <!-- clients :phaanf danhsd gias cuar khachs hangf -->
+         <div class="clients">
+            <div class="content">
+               <div class="row">
+                  <!-- logo -->
+                  <img src="assets/img/Logo.svg" alt="Besnik." />
+                  <!-- stars -->
+                  <div class="stars">
+                     <img src="./assets/img/Vector.svg" alt="stars" />
+                     <img src="./assets/img/Vector.svg" alt="stars" />
+                     <img src="./assets/img/Vector.svg" alt="stars" />
+                     <img src="./assets/img/Vector.svg" alt="stars" />
+                     <img src="./assets/img/Vector.svg" alt="stars" />
+                  </div>
+               </div>
+               <div class="row row-desc">
+                  <p class="desc-1">More than 45,000+ companies trust besnik</p>
+                  <p class="star-desc">5 Star Ratings (2k+ Review)</p>
+               </div>
+               <div class="imgage">
+                  <img src="./assets/img/client1.svg" alt="client1" />
+                  <img src="./assets/img/client2.svg" alt="client2" />
+                  <img src="./assets/img/client3.svg" alt="client3" />
+                  <img src="./assets/img/client4.svg" alt="client4" />
+                  <img src="./assets/img/client5.svg" alt="client5" />
+               </div>
+            </div>
+         </div>
+         <!-- guides huowngs daanx  -->
+         <div class="guides">
+            <div class="content">
+               <h2 class="sub-title">How its works?</h2>
+               <p class="desc">Everything you need to know when you're looking to buy, rent, or sell - all in one place.</p>
+            </div>
+            <!-- list-guide : các mục hướng dẫn  -->
+            <ul class="list-guide">
+               <li class="guide-item">
+                  <img src="./assets/img/buyer.svg" alt="" class="icon">
+                  <h3 class="title">Buyer Guides</h3>
+                  <a href="#!" class="link">
+                     <span>How to buy</span>
+                     <img src="./assets/img/arrow right.svg" alt="arrow-right" class="arrow">
+                  </a>
+               </li>
+               <li class="guide-item">
+                  <img src="./assets/img/renter.svg" alt="" class="icon">
+                  <h3 class="title">Renter Guides</h3>
+                  <a href="#!" class="link">
+                     <span>How to rent</span>
+                     <img src="./assets/img/arrow right.svg" alt="arrow-right" class="arrow">
+                  </a>
+               </li>
+               <li class="guide-item">
+                  <img src="./assets/img/seller.svg" alt="" class="icon">
+                  <h3 class="title">Seller Guides</h3>
+                  <a href="#!" class="link">
+                     <span>How to sell</span>
+                     <img src="./assets/img/arrow right.svg" alt="arrow-right" class="arrow">
+                  </a>
+               </li>
+            </ul>
+            <div class="guide-cta">
+               <a href="#!" class="btn ">Sell Full Guidelines</a>
+            </div>
+         </div>
+         <!-- featured -->
+         <div class="featured">
+            <div class="content">
+               <div class="header2">
+                  <h2 class="sub-title">Featured Properties</h2>
+                  <div class="row">
+                     <p class="desc">Everything you need to know when you're looking</p>
+                     <a href="#!" class="link">
+                        <span>View All Properties</span>
+                        <img src="./assets/img/arrow right.svg" alt="arrow" class="arrow">
+                     </a>
+                  </div>
+               </div>
+               <div class="list">
+                  <!-- featured item1 -->
+                  <div class="item">
+                    <a href="#!"><img src="./assets/img/featured home1.svg" alt="Nikko Apartments " class="thump"></a>
+                     <!-- thump : ảnh thu nhỏ ,laybel : thông tin -->
+                     <div class="body">
+                        <h3 class="title">Nikko Apartments</h3>
+                        <p class="desc">8502 Preston Rd. Inglewood, Maine 98280</p>
+                        <div class="info">
+                           <img src="./assets/img/featured-1.svg" alt="" class="icon">
+                           <span class="label">5 Beds</span>
+
+                           <img src="./assets/img/featured-2.svg" alt="" class="icon">
+                           <span class="label">2 both</span>
+
+                           <img src="./assets/img/featured-3.svg" alt="" class="icon">
+                           <span class="label">2000 Sqft</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- featured item 2 -->
+                  <div class="item">
+                     <a href="#!"><img src="./assets/img/featured home2.svg" alt="CouCou Homestead " class="thump"></a>
+                     <div class="body">
+                        <h3 class="title">CouCou Homestead</h3>
+                        <p class="desc">8502 Preston Rd. Inglewood, Maine 98280</p>
+                        <div class="info">
+                           <img src="./assets/img/featured-1.svg" alt="" class="icon">
+                           <span class="label">5 Beds</span>
+
+                           <img src="./assets/img/featured-2.svg" alt="" class="icon">
+                           <span class="label">2 both</span>
+
+                           <img src="./assets/img/featured-3.svg" alt="" class="icon">
+                           <span class="label">2000 Sqft</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- featured item 3 -->
+                  <div class="item">
+                     <a href="#!"><img src="./assets/img/featured home 3.svg" alt="Lavis 18 Residence " class="thump"></a>
+                     <div class="body">
+                        <h3 class="title">Lavis 18 Residence</h3>
+                        <p class="desc">8502 Preston Rd. Inglewood, Maine 98280</p>
+                        <div class="info">
+                           <img src="./assets/img/featured-1.svg" alt="" class="icon">
+                           <span class="label">5 Beds</span>
+
+                           <img src="./assets/img/featured-2.svg" alt="" class="icon">
+                           <span class="label">2 both</span>
+
+                           <img src="./assets/img/featured-3.svg" alt="" class="icon">
+                           <span class="label">2000 Sqft</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- stats  số iệu thống kê ///////////// -->
+         <div class="stats">
+            <div class="content">
+               <div class="row">
+                  <div class="img-block">
+                     <img src="./assets/img/lorenzo-gerosa-ZeaYnAQVcfk-unsplash (1).jpg" alt="You’ve found a neighborhood you love." class="image">
+                     <!-- trend : xu hướng -->
+                     <div class="stats-trend">
+                        <div class="row">
+                           <strong class="value">40,000+</strong>
+                           <img src="./assets/img/trend1.svg" alt="" class="icon">
+                        </div>
+                        <p class="desc">By avarage for 2 bedroom apments in San Francisco, CA</p>
+                        <!-- separate :taoj vachj phaan chia  , value : gias trij  -->
+                        <div class="separate"></div>
+
+                        <div class="avatar-block">
+                           <div class="avatar-ground">
+                              <img src="./assets/img/avatar1.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar2.jpg" alt="" class="avatar">
+                           </div>
+                           <div class="avatar-ground">
+                              <img src="./assets/img/avatar1.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar2.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar3.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar4.jpg" alt="" class="avatar">
+                           </div>
+                           <div class="avatar-ground">
+                              <img src="./assets/img/avatar1.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar2.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar3.jpg" alt="" class="avatar">
+                           </div>
+                           <div class="avatar-ground">
+                              <img src="./assets/img/avatar1.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar2.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar3.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar4.jpg" alt="" class="avatar">
+                           </div>
+                           <div class="avatar-ground">
+                              <img src="./assets/img/avatar1.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar2.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar5.jpg" alt="" class="avatar">
+                           </div>
+                           <div class="avatar-ground">
+                              <img src="./assets/img/avatar1.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar6.jpg" alt="" class="avatar">
+                           </div>
+                           <div class="avatar-ground">
+                              <img src="./assets/img/avatar4.jpg" alt="" class="avatar">
+                              <img src="./assets/img/avatar6.jpg" alt="" class="avatar">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="info">
+                     <h2 class="sub-title">You’ve found a neighborhood you love.</h2>
+                     <p class="desc">When you own a home, you’re committing to living in one location for a while.
+                         In a recent Trulia survey, we found that five out of six respondents said finding the right neighborhood </p>
+                  </div>
+               </div>
+               <div class="row row-qty">
+                  <div class="qty-item">
+                     <strong class="qty">2,500</strong>
+                     <p class="qty-desc">Homes For Sale</p>
+                  </div>
+                  <div class="qty-item">
+                     <strong class="qty">5,000+</strong>
+                     <p class="qty-desc">Homes Recently Sold</p>
+                  </div>
+                  <div class="qty-item">
+                     <strong class="qty">170+</strong>
+                     <p class="qty-desc">Price Reduced</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- subscription thoong tin mowis -->
+         <div class="subscription">
+            <div class="content">
+               <div class="body">
+                  <div class="info">
+                     <!-- line clamp có tác dụng giới hạn chữ trong trường hợp có quá nhiều chữ , mặc định là 2 dòng -->
+                     <h2 class="sub-title line clamp">Subscribe to our Newsletter!</h2>
+                     <p class="desc line clamp" style="line-clamp: 3;">Subscribe to our newsletter and stay updated.</p>
+                     <a href="#!" class="btn">Subscribe</a>
+                  </div>
+                  <img src="./assets/img/subscription1.svg" alt="" class="image">
+               </div>
+            </div>
+         </div>
+         <!-- footer -->
+         <footer class="footer">
+            <div class="content">
+               <div class="row row-top">
+                  <div class="column">
+                     <h3 class="heading">Product</h3>
+                     <ul class="list">
+                        <li class="item">
+                           <a href="#!">Listing</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Property</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Agents</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Blog</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="column">
+                     <h3 class="heading">Resources</h3>
+                     <ul class="list">
+                        <li class="item">
+                           <a href="#!">Our Homes</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Member Stories</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Video</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Free trial</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="column">
+                     <h3 class="heading">Company</h3>
+                     <ul class="list">
+                        <li class="item">
+                           <a href="#!">Patnerships</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Terms of use</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Privacy</a>
+                        </li>
+                        <li class="item">
+                           <a href="#!">Sitemap</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="column">
+                     <h3 class="heading">Get in touch</h3>
+                     <p class="desc">You’ll find your next home, in any style you prefer.</p>
+                     <!-- social : mạng xã hội  -->
+                     <div class="social">
+                        <a href="#!" class="social-link">
+                           <img src="./assets/img/face.svg" alt="">
+                        </a>
+                        <a href="#!" class="social-link">
+                           <img src="./assets/img/bird.svg" alt="">
+                        </a>
+                        <a href="#!" class="social-link">
+                           <img src="./assets/img/in.svg" alt="">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="row row-bottom">
+                  <img src="./assets/img/Logo.svg" alt="Besnik" class="logo">
+                  <p class="copyright">Copyright 2020.com, All rights reserved.</p>
+               </div>
+            </div>
+         </footer>
+      </main>
+   </body>
+</html>
